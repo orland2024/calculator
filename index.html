@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
-  <body class="bg-black">
-    <script src="script.js"></script>
-
+  <body class=" flex justify-center items-center bg-black">
+    <div class="bg-white h-12 w-20">
+      <button id="monBouton">Mon bouton</button>
+    </div>
+  
     <div
       class="calculatrice w-[330px] bg-slate-500 p-16 rounded shadow-xl shadow-indigo-500">
       <p class="infos text-red-500 py-2 font-bold"></p>
@@ -133,5 +135,6 @@
         name="reset" 
         onclick="supp()"/>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
